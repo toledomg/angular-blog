@@ -1,16 +1,18 @@
 .container__big-card {
-  width: 500px;
+  width: 320px;
 
   display: flex;
+  justify-content: center;
   flex-direction: column;
 
   gap: 15px;
   padding: 10px;
+  margin: 0 auto;
 }
 
 .container__big-card .big-card__picture > img {
   width: 100%;
-  min-width: 500px;
+  min-width: 320px;
   height: auto;
 
   border-radius: 8px;
@@ -51,4 +53,20 @@
   line-height: 26px;
   font-weight: 300;
   color: var(--color-secondary);
+}
+
+@media screen and (min-width: 501px) and (max-width: 1080px) {
+  .container__big-card {
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .container__big-card .big-card__picture > img {
+    min-width: 500px;
+  }
 }

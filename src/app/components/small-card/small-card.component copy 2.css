@@ -1,9 +1,7 @@
 .container__small-card > .small-card__content {
-  width: 320px;
+  width: 650px;
 
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 
   gap: 15px;
   padding: 15px;
@@ -19,7 +17,7 @@ hr {
   height: auto;
 
   min-width: 270px;
-  max-width: 320px;
+  max-width: 270px;
 
   border-radius: 8px;
 
@@ -50,28 +48,4 @@ hr {
   font-weight: 600;
   line-height: 26px;
   letter-spacing: 0px;
-}
-
-@media screen and (min-width: 501px) and (max-width: 1000px) {
-  .container__small-card > .small-card__content {
-    width: 500px;
-  }
-
-  .container__small-card > .small-card__content > .small-card__picture > img {
-    max-width: 500px;
-  }
-}
-
-@media screen and (min-width: 1001px) {
-  .container__small-card > .small-card__content {
-    width: 650px;
-
-    display: flex;
-
-    gap: 15px;
-    padding: 15px;
-
-    justify-content: inherit;
-    flex-wrap: nowrap;
-  }
 }

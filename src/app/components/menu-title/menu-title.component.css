@@ -1,5 +1,5 @@
 .container__menu-title {
-  margin: 15px 15px 0px 15px;
+  width: 100%;
 }
 
 .container__menu-title > hr {
@@ -7,8 +7,12 @@
   opacity: 0.3;
 }
 
-.container__menu-title > h1 {
-  font-size: 15rem;
+.container__menu-title > div {
+  width: 100%;
+}
+
+.container__menu-title > div > h1 {
+  font-size: 4rem;
   font-weight: 700;
 
   display: flex;
@@ -18,6 +22,26 @@
   color: var(--color-white);
 }
 
-.container__menu-title > hr {
-  margin: 10px 0;
+@media screen and (min-width: 729px) and (max-width: 800px) {
+  .container__menu-title > div > h1 {
+    font-size: 9.5rem;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 900px) {
+  .container__menu-title > div > h1 {
+    font-size: 10.5rem;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1080px) {
+  .container__menu-title > div > h1 {
+    font-size: 10.5rem;
+  }
+}
+
+@media screen and (min-width: 1081px) {
+  .container__menu-title > div > h1 {
+    font-size: 14rem;
+  }
 }
