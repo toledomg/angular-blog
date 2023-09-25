@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+
+  background-color: var(--color-background);
+
+  font-family: var(--color-font-sans-serif);
+
+  color: var(--color-white);
+}
+
+:root {
+  --color-blue: #0d6efd;
+  --color-indigo: #6610f2;
+  --color-purple: #6f42c1;
+  --color-pink: #d63384;
+  --color-red: #dc3545;
+  --color-orange: #fd7e14;
+  --color-yellow: #ffc107;
+  --color-green: #198754;
+  --color-teal: #20c997;
+  --color-cyan: #0dcaf0;
+  --color-white: #fff;
+  --color-gray: #6c757d;
+  --color-gray-dark: #343a40;
+  --color-primary: #0d6efd;
+  --color-secondary: #6c757d;
+  --color-success: #198754;
+  --color-info: #0dcaf0;
+  --color-warning: #ffc107;
+  --color-danger: #dc3545;
+  --color-light: #f8f9fa;
+  --color-dark: #212529;
+  --color-background: #121212;
+  --color-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --color-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --color-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+}
