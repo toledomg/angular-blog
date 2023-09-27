@@ -14,7 +14,7 @@ hr {
   opacity: 0.3;
 }
 
-.container__small-card > .small-card__content > .small-card__picture > img {
+.container__small-card > .small-card__content > .small-card__picture > a > img {
   width: 100%;
   min-width: 270px;
   max-width: 320px;
