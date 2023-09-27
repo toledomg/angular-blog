@@ -9,14 +9,6 @@
   margin: 0 auto;
 }
 
-header {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-
-  padding: 15px;
-}
-
 .container__articles {
   display: flex;
   justify-content: center;

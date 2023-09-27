@@ -4,7 +4,9 @@
 
 <div class="container__big-card">
   <div class="big-card__picture">
-    <img src="{{ imageCover }}" alt="image MArvel" srcset="" />
+    <a [routerLink]="['content', id]">
+      <img src="{{ imageCover }}" alt="image MArvel" srcset="" />
+    </a>
   </div>
   <div class="big-card__text">
     <div class="big-card__date">
@@ -13,12 +15,12 @@
 
     <div class="big-card__title">
       <h2>
-        <a href="#">{{ cardTitle }}</a>
+        <a [routerLink]="['content', id]">{{ cardTitle }}</a>
       </h2>
     </div>
 
     <div class="big-card__description">
-      <a href="#">
+      <a [routerLink]="['content', id]">
         <p>
           {{ cardDescription }}
         </p>

@@ -25,6 +25,8 @@ hr {
   border-radius: 8px;
 
   object-fit: cover;
+  object-position: 0 0%;
+
   overflow: hidden;
 }
 

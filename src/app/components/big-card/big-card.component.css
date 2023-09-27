@@ -10,7 +10,7 @@
   margin: 0 auto;
 }
 
-.container__big-card .big-card__picture > img {
+.container__big-card .big-card__picture > a > img {
   width: 100%;
   min-width: 320px;
   height: auto;
