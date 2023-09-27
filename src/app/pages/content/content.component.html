@@ -1,4 +1,9 @@
 <section class="container__content">
+  <div class="container__link">
+    <div class="link-content">
+      <a [routerLink]="['']"><< VOLTAR</a>
+    </div>
+  </div>
   <div class="content-cover">
     <img src="{{ contentImageCover }}" alt="" />
   </div>
@@ -7,11 +12,7 @@
       {{ contentCardTitle }}
     </h1>
   </div>
-  <div class="container__link">
-    <div class="link-content">
-      <a [routerLink]="['']"><< VOLTAR</a>
-    </div>
-  </div>
+
   <div class="content-description">
     <p>
       {{ contentCardDescription }}

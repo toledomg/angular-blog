@@ -1,9 +1,11 @@
 export const dataFake = [
   {
     id: '1',
-    photoImageCover: '',
-    title: '',
-    description: '',
+    photoImageCover:
+      'https://julianamoorecaligrafia.files.wordpress.com/2015/01/diagrama-fontes2.png',
+    title: 'Várias maneiras de usar tipografia ousada no design de sites',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eaque soluta ab, eveniet perferendis non sit illo harum quibusdam fugit. At  consectetur in incidunt cumque laborum aliquid hic unde aspernatur.',
   },
   {
     id: '2',

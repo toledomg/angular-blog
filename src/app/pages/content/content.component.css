@@ -20,6 +20,7 @@
 }
 .container__content > .content-cover > img {
   width: auto;
+  max-width: 600px;
   max-height: 800px;
 
   border-radius: 12px;
@@ -44,20 +45,24 @@
   overflow: hidden;
 }
 
-.container__content > .container__link {
-  width: 90px;
-  display: flex;
-
-  position: absolute;
-  right: 50px;
-  top: 840px;
-}
-
 .content-description {
   padding: 20px 50px;
 
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.container__link {
+  width: 90px;
+  display: flex;
+
+  position: absolute;
+  right: 35px;
+  top: -10px;
+}
+
+.container__link > .link-content {
+  margin-bottom: 10px;
 }
 
 .container__content > .content-description > p {
