@@ -32,7 +32,7 @@
 
 .container__content > .content-cover > div > a {
   display: flex;
-
+  align-items: center;
   gap: 10px;
 }
 

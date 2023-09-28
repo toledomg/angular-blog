@@ -33,14 +33,7 @@ body {
   --color-light: #f8f9fa;
   --color-dark: #212529;
   --color-background: #121212;
-  --color-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto;
-  --color-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
-  --color-gradient: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.15),
-    rgba(255, 255, 255, 0)
-  );
+  --color-font-sans-serif: "Segoe UI", Roboto;
 }
 
 /* @media screen and (min-width: 320px) and (max-width: 800px) {
