@@ -80,3 +80,19 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+@media screen and (min-width: 501px) and (max-width: 1080px) {
+  .container__big-card {
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .container__big-card .big-card__picture > img {
+    min-width: 500px;
+  }
+}
