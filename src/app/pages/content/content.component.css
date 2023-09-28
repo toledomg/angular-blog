@@ -14,10 +14,28 @@
 .content-cover {
   padding: 20px;
 }
+
 .container__content > .content-cover {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+
+  gap: 30px;
 }
+
+.container__content > .content-cover > div {
+  display: flex;
+  justify-content: end;
+
+  margin-right: 10px;
+}
+
+.container__content > .content-cover > div > a {
+  display: flex;
+
+  gap: 10px;
+}
+
 .container__content > .content-cover > img {
   width: auto;
   max-width: 600px;
@@ -52,19 +70,6 @@
   margin-bottom: 20px;
 }
 
-.container__link {
-  width: 90px;
-  display: flex;
-
-  position: absolute;
-  right: 35px;
-  top: -10px;
-}
-
-.container__link > .link-content {
-  margin-bottom: 10px;
-}
-
 .container__content > .content-description > p {
   font-weight: normal;
   font-size: 1rem;
@@ -81,8 +86,9 @@
   overflow: hidden;
 }
 
-@media screen and (min-width: 501px) {
-  .container__content > .content-cover > img {
+@media screen and (min-width: 320px) {
+  .container__content {
+    align-items: center;
   }
 }
 
