@@ -81,18 +81,25 @@
   overflow: hidden;
 }
 
-@media screen and (min-width: 501px) and (max-width: 1080px) {
-  .container__big-card {
-    width: 500px;
+@media screen and (min-width: 501px) {
+  .container__content > .content-cover > img {
+  }
+}
 
-    display: flex;
-    flex-direction: column;
-
-    gap: 15px;
-    padding: 10px;
+@media screen and (max-width: 801px) {
+  .container__content > .content-cover > img {
+    width: 320px;
+    max-width: 600px;
+    max-height: 800px;
   }
 
-  .container__big-card .big-card__picture > img {
-    min-width: 500px;
+  .content-title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-description {
+    display: flex;
+    justify-content: center;
   }
 }
